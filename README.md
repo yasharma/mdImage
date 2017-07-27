@@ -7,6 +7,10 @@ Note: You need [angular material](https://material.angularjs.org/latest/) to be 
 ```html
 <script src="mdImage.js"></script>
 ```
+## app
+```javascript
+angular.module('myApp', ['mdImageFallback']);
+```
 
 ## HTML
 ```html
